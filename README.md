@@ -105,7 +105,7 @@ All task endpoints require authentication.
 | DELETE | `/tasks/{taskId}`                             | Delete task by ID                                    | Yes           |
 
 **Query Parameters:**
-- `sortBy`: Sort tasks by `dueDate` or `priority` (default: `dueDate`)
+- `sortBy`: Sort tasks by `dueDate` or `priority`
 - `keyword`: Search term for filtering tasks
 
 ---
