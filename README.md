@@ -178,4 +178,14 @@ CREATE TABLE tasks (
     FOREIGN KEY (project_id) REFERENCES projects(id)
 );
 ```
+**Columns:**
+- `id`: Auto-generated primary key
+- `title`: Task title
+- `description`: Task description
+- `status`: Current status (PENDING, IN_PROGRESS, COMPLETED)
+- `priority`: Priority level (LOW, MEDIUM, HIGH)
+- `due_date`: Task deadline
+- `created_at`: Timestamp of creation
+- `updated_at`: Timestamp of last update
+- `project_id`: Foreign key referencing the parent project
 
